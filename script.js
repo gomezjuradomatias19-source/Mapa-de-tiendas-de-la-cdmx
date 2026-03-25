@@ -79,6 +79,10 @@ function mostrarInfo(tienda) {
                 <span class="label">💳 Métodos de Pago</span>
                 <span class="value">${tienda.pagos}</span>
             </div>
+
+            <div class="info-item">
+            <span class="label">📞 Contactar a la tienda
+            <span class="value">${tienda.contacto}</span>
             
             <a href="${googleUrl}" target="_blank" class="btn-google">
                 🚗 Abrir en Google Maps
