@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Locator Pro | Buscador de Tiendas</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <aside class="sidebar">
+            <div class="header-box">
+                <h2>Mis Tiendas</h2>
+                <div id="status-location">Buscando tu posición...</div>
+            </div>
+            
+            <div id="details" class="details-container">
+                <div class="welcome-msg">
+                    <p>📍 Selecciona una tienda en el mapa para ver su dirección, horario y métodos de pago.</p>
+                </div>
+            </div>
+        </aside>
+        
+        <main id="map"></main>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
